@@ -1,0 +1,12 @@
+import numpy as np
+import matplotlib.pyplot as plt
+datas=[]
+with open('/home/sanath/Desktop/cn/statistics.txt') as f:
+    for eachData in f:
+        data1=int(eachData.split(',')[0])
+        data2=int(eachData.split(',')[1])
+        datas.append([data1,data2])
+print(datas)
+print(*zip(*datas))
+plt.plot(*zip(*datas))
+plt.show()
