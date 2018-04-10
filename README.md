@@ -10,4 +10,5 @@ g++ cn_implementation.cpp<br>
 python3 plotGraph.py
 
 <h2>average number of hops v/s average number of nodes using DAlPaS method.</h2>
+
 ![simf](https://user-images.githubusercontent.com/21198781/38580471-ad99eb42-3d27-11e8-861e-a4a41b6ae0e5.png)
